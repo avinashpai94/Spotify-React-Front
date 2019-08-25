@@ -1,0 +1,41 @@
+.titlebar {
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+
+.titlebar-button {
+  -webkit-app-region: no-drag;
+}
+.main-container{
+    display: flex;
+    height: 100px;
+    width: 320px;
+    flex-direction: column;
+    background-color:#1DB954;
+    padding: 100;
+}
+.seek-container{
+    height: 150px;
+    width: inherit;
+}
+
+.button-icon{
+    border-radius: 20%;
+    max-width:8%;
+    height:auto;
+    padding: 17px;
+}
+
+.button-icon:hover{
+    transform: scale(1.2);
+}
+
+#icon-active{
+    background-color: #117e37;
+}
+
+.button-container{
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
