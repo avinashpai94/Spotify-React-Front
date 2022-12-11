@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "console": "^0.7.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "querystring": "^0.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
